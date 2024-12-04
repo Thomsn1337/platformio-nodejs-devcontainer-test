@@ -1,0 +1,20 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+    "name": "Untitled Node.js project",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "."
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh"
+            },
+            "extensions": [
+                "ms-vscode.cpptools",
+                "platformio.platformio-ide"
+            ]
+        }
+    },
+    "remoteUser": "node"
+}
